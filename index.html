@@ -66,7 +66,7 @@
                     {lesson === '01' ? (
                         <div>
                             <img className="img" src={`pic/${slide}`}/>
-                            <div className="nextSlide" onClick={() => changeSlideToggler()}> next </div>
+                            <div><div className="nextSlide" onClick={() => changeSlideToggler()}>{`NEXT (slide ${slidesArr.indexOf(slide)})`}</div> </div>
                         </div>
                     ) : null}
                 </div>
